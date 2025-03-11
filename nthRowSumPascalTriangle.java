@@ -4,6 +4,7 @@ public class nthRowSumPascalTriangle {
         System.out.println(nthRowSum(n));
     }
     private static long nthRowSum(int n) {
+        // start from n = 1;
         return 1 << (n-1);
         // return (long) Math.pow(2, n - 1);
     }
