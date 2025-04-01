@@ -2,9 +2,12 @@ import java.util.*;
 
 class isPrimeNums {
     public static void main(String[] args) {
-        int n = 20;
+        int n = 15;
         for(int i=1; i<=n; i++) {
             System.out.println(i + " " + isPrime(i));
+            // if(isPrime(i)) {
+                // System.out.println(i);
+            // }
         }
     }
 
