@@ -3,10 +3,10 @@ import java.util.ArrayList;
 public class factors {
     public static void main(String[] args) {
         int n = 40;
-        factors(n);
+        factors_n(n);
     }
 
-    static void factors(int n) {
+    static void factors_n(int n) {
         ArrayList<Integer> arr = new ArrayList<>();
         for (int i = 1; i <= Math.sqrt(n); i++) {
             if (n % i == 0) {
