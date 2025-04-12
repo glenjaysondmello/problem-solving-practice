@@ -28,4 +28,12 @@ public class pattern3 {
     }
 }
 
+// Pattern:
+
+// * * * * * 
+// * * * * 
+// * * * 
+// * * 
+// *
+
 
