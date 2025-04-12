@@ -27,3 +27,5 @@ public class pattern3 {
         }
     }
 }
+
+
