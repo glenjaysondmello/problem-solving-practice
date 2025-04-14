@@ -12,17 +12,17 @@ public class searchString {
             return false;
         }
 
-        // for(int i = 0; i < str.length(); i++) {
-        //     if(str.charAt(i) == target) {
-        //         return true;
-        //     }
-        // }
-
-        for(char ch : str.toCharArray()) {
-            if(ch == target) {
+        for(int i = 0; i < str.length(); i++) {
+            if(str.charAt(i) == target) {
                 return true;
             }
         }
+
+        // for(char ch : str.toCharArray()) {
+        //     if(ch == target) {
+        //         return true;
+        //     }
+        // }
 
         return false;
     }
