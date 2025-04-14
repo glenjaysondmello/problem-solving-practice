@@ -1,10 +1,13 @@
 public class searchInRange {
     public static void main(String[] args) {
         int start = 1, end = 4;
+
         int[] nums = {34, -5, 89, 23, 4, -1};
+        int target2 = -5;
+
         String str = "dmello";
         char target1 = 'o';
-        int target2 = -5;
+        
         System.out.println(search1(str, target1, start, end));
         System.out.println(search2(nums, target2, start, end));
     }
