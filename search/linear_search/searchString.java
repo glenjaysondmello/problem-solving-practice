@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class searchString {
     public static void main(String[] args) {
         String str = "dmello";
