@@ -73,3 +73,568 @@ public class nKnight {
         }
     }
 }
+
+
+// Output:
+
+// K K K K 
+// X X X X 
+// X X X X 
+// X X X X 
+
+// K K K X 
+// X X X X 
+// X X X X 
+// X X X K 
+
+// K K X K 
+// X X X X 
+// X X X X 
+// X X K X 
+
+// K K X X 
+// X X X X 
+// X X X K 
+// X X K X 
+
+// K K X X 
+// X X X X 
+// X X X X 
+// X X K K 
+
+// K X K K 
+// X K X X 
+// X X X X 
+// X X X X 
+
+// K X K X 
+// X K X K 
+// X X X X 
+// X X X X 
+
+// K X K X 
+// X K X X 
+// X X X X 
+// X X X K 
+
+// K X X K 
+// X K X X 
+// X X K X 
+// X X X X 
+
+// K X X X 
+// X K X K 
+// X X K X 
+// X X X X 
+
+// K X X X 
+// X K X X 
+// X X K X 
+// X X X K 
+
+// K X K K 
+// X X X X 
+// X X X X 
+// X K X X 
+
+// K X K X 
+// X X X K 
+// X X X X 
+// X K X X 
+
+// K X K X 
+// X X X X 
+// X X X X 
+// X K X K 
+
+// K X X K 
+// X X X X 
+// X X K X 
+// X K X X 
+
+// K X X X 
+// X X X K 
+// X X K X 
+// X K X X 
+
+// K X X X 
+// X X X X 
+// X X K K 
+// X K X X 
+
+// K X X X 
+// X X X X 
+// X X K X 
+// X K X K 
+
+// K X X K 
+// X X X X 
+// X X X X 
+// X K K X 
+
+// K X X X 
+// X X X K 
+// X X X X 
+// X K K X 
+
+// K X X X 
+// X X X X 
+// X X X K 
+// X K K X 
+
+// K X X X 
+// X X X X 
+// X X X X 
+// X K K K 
+
+// X K K K 
+// K X X X 
+// X X X X 
+// X X X X 
+
+// X K K X 
+// K X X X 
+// X X X X 
+// X X X K 
+
+// X K X K 
+// K X K X 
+// X X X X 
+// X X X X 
+
+// X K X X 
+// K X K X 
+// X X X K 
+// X X X X 
+
+// X K X K 
+// K X X X 
+// X X X X 
+// X X K X 
+
+// X K X X 
+// K X X X 
+// X X X K 
+// X X K X 
+
+// X K X X 
+// K X X X 
+// X X X X 
+// X X K K 
+
+// X X K K 
+// K K X X 
+// X X X X 
+// X X X X 
+
+// X X K X 
+// K K X K 
+// X X X X 
+// X X X X 
+
+// X X K X 
+// K K X X 
+// X X X X 
+// X X X K 
+
+// X X X K 
+// K K K X 
+// X X X X 
+// X X X X 
+
+// X X X X 
+// K K K K 
+// X X X X 
+// X X X X 
+
+// X X K K 
+// K X X X 
+// X K X X 
+// X X X X 
+
+// X X K X 
+// K X X K 
+// X K X X 
+// X X X X 
+
+// X X X K 
+// K X K X 
+// X K X X 
+// X X X X 
+
+// X X X X 
+// K X K K 
+// X K X X 
+// X X X X 
+
+// X X X X 
+// K X K X 
+// X K X K 
+// X X X X 
+
+// X X X K 
+// K X X X 
+// X K X X 
+// X X K X 
+
+// X X X X 
+// K X X K 
+// X K X X 
+// X X K X 
+
+// X X X X 
+// K X X X 
+// X K X K 
+// X X K X 
+
+// X K K K 
+// X X X X 
+// K X X X 
+// X X X X 
+
+// X K K X 
+// X X X X 
+// K X X X 
+// X X X K 
+
+// X K X K 
+// X X K X 
+// K X X X 
+// X X X X 
+
+// X K X X 
+// X X K X 
+// K X X K 
+// X X X X 
+
+// X X K K 
+// X K X X 
+// K X X X 
+// X X X X 
+
+// X X K X 
+// X K X K 
+// K X X X 
+// X X X X 
+
+// X X K X 
+// X K X X 
+// K X X X 
+// X X X K 
+
+// X X X K 
+// X K K X 
+// K X X X 
+// X X X X 
+
+// X X X X 
+// X K K K 
+// K X X X 
+// X X X X 
+
+// X X X K 
+// X K X X 
+// K X K X 
+// X X X X 
+
+// X X X X 
+// X K X K 
+// K X K X 
+// X X X X 
+
+// X X X X 
+// X K X X 
+// K X K X 
+// X X X K 
+
+// X X K K 
+// X X X X 
+// K K X X 
+// X X X X 
+
+// X X K X 
+// X X X K 
+// K K X X 
+// X X X X 
+
+// X X X K 
+// X X K X 
+// K K X X 
+// X X X X 
+
+// X X X X 
+// X X K K 
+// K K X X 
+// X X X X 
+
+// X X X X 
+// X X K X 
+// K K X K 
+// X X X X 
+
+// X X X K 
+// X X X X 
+// K K K X 
+// X X X X 
+
+// X X X X 
+// X X X K 
+// K K K X 
+// X X X X 
+
+// X X X X 
+// X X X X 
+// K K K K 
+// X X X X 
+
+// X X K K 
+// X X X X 
+// K X X X 
+// X K X X 
+
+// X X K X 
+// X X X K 
+// K X X X 
+// X K X X 
+
+// X X K X 
+// X X X X 
+// K X X X 
+// X K X K 
+
+// X X X K 
+// X X K X 
+// K X X X 
+// X K X X 
+
+// X X X X 
+// X X K K 
+// K X X X 
+// X K X X 
+
+// X X X X 
+// X X K X 
+// K X X K 
+// X K X X 
+
+// X X X K 
+// X X X X 
+// K X K X 
+// X K X X 
+
+// X X X X 
+// X X X K 
+// K X K X 
+// X K X X 
+
+// X X X X 
+// X X X X 
+// K X K K 
+// X K X X 
+
+// X X X X 
+// X X X X 
+// K X K X 
+// X K X K 
+
+// X K K K 
+// X X X X 
+// X X X X 
+// K X X X 
+
+// X K K X 
+// X X X X 
+// X X X X 
+// K X X K 
+
+// X K X K 
+// X X K X 
+// X X X X 
+// K X X X 
+
+// X K X X 
+// X X K X 
+// X X X K 
+// K X X X 
+
+// X K X K 
+// X X X X 
+// X X X X 
+// K X K X 
+
+// X K X X 
+// X X X X 
+// X X X K 
+// K X K X 
+
+// X K X X 
+// X X X X 
+// X X X X 
+// K X K K 
+
+// X X K K 
+// X K X X 
+// X X X X 
+// K X X X 
+
+// X X K X 
+// X K X K 
+// X X X X 
+// K X X X 
+
+// X X K X 
+// X K X X 
+// X X X X 
+// K X X K 
+
+// X X X K 
+// X K K X 
+// X X X X 
+// K X X X 
+
+// X X X X 
+// X K K K 
+// X X X X 
+// K X X X 
+
+// X X X K 
+// X K X X 
+// X X K X 
+// K X X X 
+
+// X X X X 
+// X K X K 
+// X X K X 
+// K X X X 
+
+// X X X X 
+// X K X X 
+// X X K X 
+// K X X K 
+
+// X X K K 
+// X X X X 
+// X K X X 
+// K X X X 
+
+// X X K X 
+// X X X K 
+// X K X X 
+// K X X X 
+
+// X X X K 
+// X X K X 
+// X K X X 
+// K X X X 
+
+// X X X X 
+// X X K K 
+// X K X X 
+// K X X X 
+
+// X X X X 
+// X X K X 
+// X K X K 
+// K X X X 
+
+// X X X K 
+// X X X X 
+// X K K X 
+// K X X X 
+
+// X X X X 
+// X X X K 
+// X K K X 
+// K X X X 
+
+// X X X X 
+// X X X X 
+// X K K K 
+// K X X X 
+
+// X X X K 
+// X X X X 
+// X K X X 
+// K X K X 
+
+// X X X X 
+// X X X K 
+// X K X X 
+// K X K X 
+
+// X X X X 
+// X X X X 
+// X K X K 
+// K X K X 
+
+// X X K K 
+// X X X X 
+// X X X X 
+// K K X X 
+
+// X X K X 
+// X X X K 
+// X X X X 
+// K K X X 
+
+// X X K X 
+// X X X X 
+// X X X X 
+// K K X K 
+
+// X X X K 
+// X X K X 
+// X X X X 
+// K K X X 
+
+// X X X X 
+// X X K K 
+// X X X X 
+// K K X X 
+
+// X X X X 
+// X X K X 
+// X X X K 
+// K K X X 
+
+// X X X K 
+// X X X X 
+// X X K X 
+// K K X X 
+
+// X X X X 
+// X X X K 
+// X X K X 
+// K K X X 
+
+// X X X X 
+// X X X X 
+// X X K K 
+// K K X X 
+
+// X X X X 
+// X X X X 
+// X X K X 
+// K K X K 
+
+// X X X K 
+// X X X X 
+// X X X X 
+// K K K X 
+
+// X X X X 
+// X X X K 
+// X X X X 
+// K K K X 
+
+// X X X X 
+// X X X X 
+// X X X K 
+// K K K X 
+
+// X X X X 
+// X X X X 
+// X X X X 
+// K K K K 
+
+// 112
