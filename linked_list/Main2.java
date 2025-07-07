@@ -9,6 +9,8 @@ public class Main2 {
 
         list.insertLast(99);
 
+        list.insert(7, 6);
+
         list.display();
         System.out.println();
         list.displayRev();
