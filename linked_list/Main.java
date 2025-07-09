@@ -9,7 +9,10 @@ public class Main {
 
         list.insertLast(99);
 
-        list.insert(6, 3);
+        list.insertRec(2, 6);
+        list.display();
+
+        list.insert(8, 3);
 
         System.out.println(list.getNodeByIndex(1));
         System.out.println(list.findNodeByValue(7));
@@ -23,6 +26,9 @@ public class Main {
         list.display();
 
         System.out.println(list.deleteIndex(2));
+        list.display();
+
+        list.reverseList();
         list.display();
     }
 }

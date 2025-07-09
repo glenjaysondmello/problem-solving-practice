@@ -12,7 +12,7 @@ public class CLL {
     public void insert(int value) {
         Node node = new Node(value);
 
-        if(head == null) {
+        if (head == null) {
             head = node;
             tail = node;
             return;
@@ -26,11 +26,11 @@ public class CLL {
     public void display() {
         Node node = head;
 
-        if(head != null) {
+        if (head != null) {
             do {
                 System.out.print(node.value + " -> ");
                 node = node.next;
-            } while(node != head);
+            } while (node != head);
         }
 
         System.out.println("HEAD");
@@ -39,9 +39,10 @@ public class CLL {
     public void delete(int val) {
         Node node = head;
 
-        if(node == null) return;
+        if (node == null)
+            return;
 
-        if(node.value == val) {
+        if (node.value == val) {
             head = node.next;
             tail.next = head;
             return;
@@ -49,13 +50,13 @@ public class CLL {
 
         do {
             Node n = node.next;
-            if(n.value == val) {
+            if (n.value == val) {
                 node.next = n.next;
                 break;
             }
 
             node = node.next;
-        } while(node != head);
+        } while (node != head);
     }
 
     private class Node {

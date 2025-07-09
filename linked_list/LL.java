@@ -19,6 +19,21 @@ public class LL {
         size++;
     }
 
+    public void insertRec(int index, int value) {
+        head = insertRec(index, value, head);
+    }
+
+    private Node insertRec(int index, int value, Node node) {
+        if(index == 0) {
+            Node temp = new Node(value, node);
+            size++;
+            return temp;
+        }
+
+        node.next = insertRec(--index, value, node.next);
+        return node;
+    }
+
     public void insertLast(int value) {
         if(tail == null) {
             insertFirst(value);
@@ -121,6 +136,22 @@ public class LL {
         }
 
         return null;
+    }
+
+    public void reverseList() {
+        reverseList(head);
+    }
+
+    private void reverseList(Node node) {
+        if(node == tail) {
+            head = tail;
+            return;
+        }
+
+        reverseList(node.next);
+        tail.next = node;
+        tail = node;
+        tail.next = null;
     }
 
     public void display() {
