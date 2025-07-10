@@ -2,8 +2,8 @@ public class CircularQueue {
     public int[] data;
     final private static int DEFAULT_SIZE = 5;
     
-    private int front = 0;
-    private int end = 0;
+    protected int front = 0;
+    protected int end = 0;
 
     private int size = 0;
 

@@ -37,7 +37,29 @@ public class Main {
         cqueue.printQueue();
 
         cqueue.insert(5);
+        cqueue.insert(7);
 
         cqueue.printQueue();
+
+        System.out.println("------------------------------------------");
+
+        DynamicCQueue cdq = new DynamicCQueue();
+
+        cdq.insert(4);
+        cdq.insert(3);
+        cdq.insert(3);
+        cdq.insert(3);
+        cdq.insert(2);
+
+        cdq.printQueue();
+
+        cdq.remove();
+
+        cdq.printQueue();
+
+        cdq.insert(5);
+        cdq.insert(7);
+
+        cdq.printQueue();
     }
 }
