@@ -4,9 +4,18 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         BinaryTree tree = new BinaryTree();
+        BST bstree = new BST();
 
-        tree.populate(sc);
-        // tree.display();
-        tree.prettyDisplay();
+        // tree.populate(sc);
+        // // tree.display();
+        // tree.prettyDisplay();
+
+        int[] nums = {3, 5, 2, 7, 8, 9};
+        int[] numSorts = {1, 2, 3, 4, 5};
+
+        // bstree.populate(nums);
+        bstree.populateSorted(numSorts);
+
+        bstree.display();
     }
 }
