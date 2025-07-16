@@ -16,6 +16,14 @@ public class Main {
         // bstree.populate(nums);
         bstree.populateSorted(numSorts);
 
-        bstree.display();
+        // bstree.display();
+
+        AVL avl = new AVL();
+
+        for(int i = 0; i < 1000; i++) {
+            avl.insert(i);
+        }
+
+        System.out.println(avl.height());
     }
 }
