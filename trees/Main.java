@@ -20,10 +20,20 @@ public class Main {
 
         AVL avl = new AVL();
 
-        for(int i = 0; i < 1000; i++) {
-            avl.insert(i);
-        }
+        // for(int i = 0; i < 1000; i++) {
+        //     avl.insert(i);
+        // }
 
-        System.out.println(avl.height());
+        // System.out.println(avl.height());
+
+        SegmentTree sgtree = new SegmentTree(nums);
+
+        // sgtree.display();
+
+        System.out.println(sgtree.query(1, 4));
+
+        sgtree.update(2, 4);
+
+        System.out.println(sgtree.query(1, 4));
     }
 }
